@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       image_tag: ${{ steps.meta.outputs.tag }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,13 +38,13 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-    - name: Build and Push image
-  run: |
-    docker build \
-      -t cele00/bootcampclt-api:${{ steps.meta.outputs.tag }} \
-      -f BootcampCLT/Dockerfile \
-      BootcampCLT
-    docker push cele00/bootcampclt-api:${{ steps.meta.outputs.tag }}
+      - name: Build and Push image
+        run: |
+          docker build \
+            -t cele00/bootcampclt-api:${{ steps.meta.outputs.tag }} \
+            -f BootcampCLT/Dockerfile \
+            BootcampCLT
+          docker push cele00/bootcampclt-api:${{ steps.meta.outputs.tag }}
 
   cd:
     needs: ci
