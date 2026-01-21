@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "BootcampCLT\\Api\\ProductController.cs",
               "ToolTip": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\Api\\ProductController.cs",
               "RelativeToolTip": "BootcampCLT\\Api\\ProductController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowC8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T02:35:56.241Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "BootcampCLT\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T02:23:05.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T02:23:05.09Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "BootcampCLT\\appsettings.json",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-21T02:16:47.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T02:16:47.934Z"
             }
           ]
         }
