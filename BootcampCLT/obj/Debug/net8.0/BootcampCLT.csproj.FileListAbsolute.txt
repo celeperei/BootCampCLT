@@ -52,3 +52,4 @@ C:\Users\celes\source\repos\API MASTERY - .NET\API.FurnitureStore\BootcampCLT\Bo
 C:\Users\celes\source\repos\API MASTERY - .NET\API.FurnitureStore\BootcampCLT\BootcampCLT\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\celes\source\repos\API MASTERY - .NET\API.FurnitureStore\BootcampCLT\BootcampCLT\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\celes\source\repos\API MASTERY - .NET\API.FurnitureStore\BootcampCLT\BootcampCLT\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
+C:\Users\celes\source\repos\API MASTERY - .NET\API.FurnitureStore\BootcampCLT\BootcampCLT\obj\Debug\net8.0\BootcampCLT.sourcelink.json

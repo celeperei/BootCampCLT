@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A47E86CD-5F2A-4F99-B063-FEC2F5753627}|BootcampCLT\\BootcampCLT.csproj|c:\\users\\celes\\source\\repos\\api mastery - .net\\api.furniturestore\\bootcampclt\\bootcampclt\\api\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A47E86CD-5F2A-4F99-B063-FEC2F5753627}|BootcampCLT\\BootcampCLT.csproj|solutionrelative:bootcampclt\\api\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A47E86CD-5F2A-4F99-B063-FEC2F5753627}|BootcampCLT\\BootcampCLT.csproj|c:\\users\\celes\\source\\repos\\api mastery - .net\\api.furniturestore\\bootcampclt\\bootcampclt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A47E86CD-5F2A-4F99-B063-FEC2F5753627}|BootcampCLT\\BootcampCLT.csproj|solutionrelative:bootcampclt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A47E86CD-5F2A-4F99-B063-FEC2F5753627}|BootcampCLT\\BootcampCLT.csproj|c:\\users\\celes\\source\\repos\\api mastery - .net\\api.furniturestore\\bootcampclt\\bootcampclt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A47E86CD-5F2A-4F99-B063-FEC2F5753627}|BootcampCLT\\BootcampCLT.csproj|solutionrelative:bootcampclt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A47E86CD-5F2A-4F99-B063-FEC2F5753627}|BootcampCLT\\BootcampCLT.csproj|c:\\users\\celes\\source\\repos\\api mastery - .net\\api.furniturestore\\bootcampclt\\bootcampclt\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47E86CD-5F2A-4F99-B063-FEC2F5753627}|BootcampCLT\\BootcampCLT.csproj|solutionrelative:bootcampclt\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47E86CD-5F2A-4F99-B063-FEC2F5753627}|BootcampCLT\\BootcampCLT.csproj|c:\\users\\celes\\source\\repos\\api mastery - .net\\api.furniturestore\\bootcampclt\\bootcampclt\\bootcampclt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A47E86CD-5F2A-4F99-B063-FEC2F5753627}|BootcampCLT\\BootcampCLT.csproj|solutionrelative:bootcampclt\\bootcampclt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\Api\\ProductController.cs",
-              "RelativeDocumentMoniker": "BootcampCLT\\Api\\ProductController.cs",
-              "ToolTip": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\Api\\ProductController.cs",
-              "RelativeToolTip": "BootcampCLT\\Api\\ProductController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T02:35:56.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\Program.cs",
               "RelativeDocumentMoniker": "BootcampCLT\\Program.cs",
               "ToolTip": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\Program.cs",
               "RelativeToolTip": "BootcampCLT\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T02:23:05.09Z"
+              "WhenOpened": "2026-01-28T03:26:36.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\Middleware\\ErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "BootcampCLT\\Middleware\\ErrorHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\Middleware\\ErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "BootcampCLT\\Middleware\\ErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T03:24:51.136Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\appsettings.json",
-              "RelativeDocumentMoniker": "BootcampCLT\\appsettings.json",
-              "ToolTip": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\appsettings.json",
-              "RelativeToolTip": "BootcampCLT\\appsettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-21T02:16:47.934Z"
+              "Title": "BootcampCLT",
+              "DocumentMoniker": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\BootcampCLT.csproj",
+              "RelativeDocumentMoniker": "BootcampCLT\\BootcampCLT.csproj",
+              "ToolTip": "C:\\Users\\celes\\source\\repos\\API MASTERY - .NET\\API.FurnitureStore\\BootcampCLT\\BootcampCLT\\BootcampCLT.csproj",
+              "RelativeToolTip": "BootcampCLT\\BootcampCLT.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-28T03:24:28.185Z",
+              "EditorCaption": ""
             }
           ]
         }

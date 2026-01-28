@@ -43,26 +43,6 @@
           "204": {
             "description": "No Content"
           },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          },
           "500": {
             "description": "Internal Server Error"
           }
@@ -315,25 +295,6 @@
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PatchProductoRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PatchProductoRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/PatchProductoRequest"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK",
@@ -473,38 +434,10 @@
           "categoriaId": {
             "type": "integer",
             "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "PatchProductoRequest": {
-        "type": "object",
-        "properties": {
-          "codigo": {
-            "type": "string",
-            "nullable": true
           },
-          "nombre": {
-            "type": "string",
-            "nullable": true
-          },
-          "descripcion": {
-            "type": "string",
-            "nullable": true
-          },
-          "precio": {
-            "type": "number",
-            "format": "double",
-            "nullable": true
-          },
-          "activo": {
-            "type": "boolean",
-            "nullable": true
-          },
-          "categoriaId": {
+          "cantidadStock": {
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -605,6 +538,10 @@
             "type": "boolean"
           },
           "categoriaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cantidadStock": {
             "type": "integer",
             "format": "int32"
           }

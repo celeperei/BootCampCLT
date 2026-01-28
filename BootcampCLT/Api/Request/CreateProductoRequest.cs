@@ -6,4 +6,6 @@
     public decimal Precio { get; init; }
     public bool Activo { get; init; } = true;
     public int CategoriaId { get; init; }
+
+    public int CantidadStock { get; init; }
 }

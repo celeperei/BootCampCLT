@@ -2,6 +2,7 @@ using BootcampCLT.Application.Query;
 using BootcampCLT.Infraestructure.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using BootcampCLT.Middleware;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -27,7 +28,6 @@ builder.Services.AddMediatR(cfg =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
-// Configuramos Swagger usando la variable que ya tiene la prioridad correcta
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
@@ -37,21 +37,20 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// --- 3. CONSTRUIR LA APP ---
 var app = builder.Build();
 
-// --- 4. LOGS DE VERIFICACIÓN (Para ver en kubectl logs) ---
 Console.WriteLine($"--- KUBERNETES ENV DIRECTA: {envDirecta} ---");
 Console.WriteLine($"DEBUG: Application Name final: {titleFromEnv}");
 
-// --- 5. CONFIGURAR PIPELINE (Middleware) ---
+app.UseMiddleware<ErrorHandlerMiddleware>();
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-        // Esto cambia el título que aparece en la pestaña del navegador
         c.DocumentTitle = titleFromEnv;
     });
 }
